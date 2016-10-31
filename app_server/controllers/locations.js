@@ -107,7 +107,7 @@ module.exports.locationInfo = function(req, res){
 
 var renderReviewForm = function (req, res, locDetail) {
   res.render('location-review-form', {
-    title: 'Review ' + locDetail.name + ' on Loc8r',
+    title: 'Review ' + locDetail.name + ' on DenverWiFinder',
     pageHeader: { title: 'Review ' + locDetail.name },
     error: req.query.err,
     url: req.originalUrl
