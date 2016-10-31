@@ -9,7 +9,7 @@
     var vm = this;
 
     vm.pageHeader = {
-      title: 'Sign in to Loc8r'
+      title: 'Sign in to DenverWiFinder'
     };
 
     vm.credentials = {
@@ -37,7 +37,7 @@
           vm.formError = err;
         })
         .then(function(){
-          $location.search('page', null); 
+          $location.search('page', null);
           $location.path(vm.returnPage);
         });
     };
