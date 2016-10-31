@@ -13,7 +13,7 @@
     var vm = this;
     console.log(window.location);
     vm.pageHeader = {
-      title: 'Loc8r',
+      title: 'DenverWiFinder',
       strapline: 'Find places to work with wifi near you!'
     };
     vm.sidebar = {

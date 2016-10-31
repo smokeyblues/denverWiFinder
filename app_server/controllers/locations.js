@@ -49,7 +49,7 @@ var renderHomepage = function(req, res, responseBody){
   res.render('locations-list', {
     title: 'DenverWiFinder - find a place to work with wifi',
     pageHeader: {
-      title: 'Loc8r',
+      title: 'DenverWiFinder',
       strapline: 'Find places to work with wifi near you!'
     },
     sidebar: "Looking for wifi and a seat? DenverWiFinder helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let DenverWiFinder help you find the place you're looking for."
